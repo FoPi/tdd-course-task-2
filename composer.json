@@ -1,0 +1,20 @@
+{
+  "name": "innonic/tdd_course_2",
+  "description": "TDD course coding task 2. Stack overflow popuplar question",
+  "minimum-stability": "dev",
+  "license": "",
+  "authors": [
+    {
+      "name": "peter.fodor",
+      "email": "peter.fodor@innonic.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+}
