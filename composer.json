@@ -1,17 +1,15 @@
 {
-  "name": "innonic/tdd_course_2",
-  "description": "TDD course coding task 2. Stack overflow popuplar question",
-  "minimum-stability": "dev",
-  "license": "",
+  "name": "innonic/tdd-course-task-2",
+  "require": {
+    "phpunit/phpunit": "4.8",
+    "guzzlehttp/guzzle": "^6.2"
+  },
   "authors": [
     {
-      "name": "peter.fodor",
-      "email": "peter.fodor@innonic.com"
+      "name": "fopi",
+      "email": "peter.fodor86@gmail.com"
     }
   ],
-  "require": {
-    "phpunit/phpunit": "^4.8"
-  },
   "autoload": {
     "psr-4": {
       "": "src/"
